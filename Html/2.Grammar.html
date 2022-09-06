@@ -5,43 +5,130 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grammar</title>
+  <h1 style="color:blue ;">Html 태그 정리 by.건웅</h1>
 </head>
 
+
 <body>
+  <!-- h1~h6 -->
+  <h1 style="color:red ;">h1~h6</h1>
+  <h3>숫자가 커질수록 글자크기가 작아지며 강조 및 줄바꿈이 기본으로 적용된다.</h3>
+
 
   <!-- 줄바꿈  -->
-  <b style="color:red ;">줄바꿈</b><br>
+  <h1 style="color:red ;">줄바꿈</h1>
 
   <!-- Br -->
-  <br>
-   <b>1. br - 단순 줄바꿈으로 닫는 태그가 존재하지않는다. c의 \n과 동일</b>
+   <h3><li> br(braek) - 단순 줄바꿈으로 닫는 태그가 존재하지않는다. c의 \n과 동일</li></h3>
 
    <!-- P -->
-  <p></p>
-  <b>2. p - 문단을 나타내며 줄바꿈시 일정 공백란이 생긴다.</b>
+  <h3><li> p(paragraph) - 문단을 나타내며 줄바꿈시 일정 공백란이 생긴다.</li></h3>
 
   <!-- Pre -->
+  <h3><li>pre - 태그 내에 있는 엔터와 스페이스가 그대로 웹 브라우저에 적용되어 보여지게 된다.
+  </li></h3> 
   <pre>
     1
     2
 
     3
   </pre>
-  <b>3.pre - 태그 내에 있는 엔터와 스페이스가 그대로 웹 브라우저에 적용되어 보여지게 된다.
-  </b> <p></p>
 
  
   <!-- 중요한 부분 강조 -->
-  <b style="color:red ;">중요한 부분 강조</b><p></p>
+  <h1 style="color:red ;">중요한 부분 강조</h1>
 
   <!-- Strong -->
-  <strong>Strong - 화면낭독기 반응(웹브라우저에서 중요한부분)</strong> <p></p>
+  <h3><strong>Strong - 화면낭독기 반응(웹브라우저에서 중요한부분)</strong></h3> 
 
   <!-- B -->
-  <b>B - 단순 시각적</b> <p></p>
+  <h3>B - 단순 시각적</h3> 
   
   <!-- U -->
-  <b><u>U - 밑줄(Underline의 약자) </u></b>
+  <h3><u>U - 밑줄(Underline의 약자) </u></h3>
+
+
+  <!-- 에셋 삽입 -->
+  <h1 style="color:red;">에셋 삽입</h1>
+  
+  <!-- img  -->
+  <h3>img - 사진 삽입</h3>
+
+  <img src="img/tag.jpg" width="300">
+
+  
+  <!-- 목록 -->
+  <h1 style="color:red;">목록</h1>
+
+  <!-- ul,ol -->
+  <h3>ul(unorderd list) - 리스트 묶음(list의 부모태그)</h3>
+  <h3>ol(orderd list) - 리스트 묶음 숫자내림차순(list의 부모태그)</h3>
+  <!-- list -->
+  <h3>list - 리스트 생성</h3>
+  
+  
+  <ol>
+    <li>일번</li>
+    <li>이번</li>
+    <li>삼번</li>
+  </ol>
+  <ul>
+    <li>철수</li>
+    <li>영희</li>
+    <li>길동</li>
+  </ul>
+
+<!-- 표 -->
+<h1 style="color:red;">표</h1>
+
+<!-- table -->
+<h3>table - 테이블 전체묶음</h3>
+
+<h3>thead -  테이블 헤드</h3>
+<h3>th -  셀을 테이블 셀그룹의 헤더로 지정(글씨 진해짐)</h3>
+<h3>tb(table body) -  테이블 바디</h3>
+<h3>tr(table row) -  테이블 행(가로)</h3>
+<h3>td(table data) -  테이블 내용</h3>
+<h3>tfoot - 항상 가장 아래행에 표시</h3>
+<h3>border - 테이블 격자(테이블태그 내에서 사용)</h3>
+
+<table border="3">
+  <thead>
+    <tr>  
+      <th>이름</th>
+      <th>성별</th>
+      <th>주소</th>
+      <th>회비</th>
+    </tr>
+  </thead>
+
+  <tb>
+    <tr>
+      <td>건웅</td>
+      <td>남</td>
+      <td>서울</td>
+      <td>1000</td>
+    </tr>
+
+    <tr>
+      <td>철수</td>
+      <td>남</td>
+      <td>부산</td>
+      <td>500</td>
+    </tr>
+  </tb>
+
+  <tfoot>
+    <td>합계</td> 
+    <td></td>
+    <td></td>
+    <td>1500</td>
+  </tfoot>
+
+</table>
+
+
+
 
 </body>
 
