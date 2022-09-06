@@ -21,3 +21,7 @@
 ### · 내가 공부하고 정리한 생각들을 블로그 형식으로 페이지로 제작해볼 것. 
 
 
+# 참고사이트
+
+## https://www.advancedwebranking.com/html 웹페이지 Html 태그 사용량 통계
+## https://developer.mozilla.org/ko/docs/Web/HTML/Element Html 태그 검색 
