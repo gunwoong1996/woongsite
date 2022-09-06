@@ -10,7 +10,9 @@
 
 # 진행과정
 
-### html 공부 -> css 공부 -> java script 공부 -> 프레임워크 공부 -> 공부내용을 되짚어보면서 웹페이지 제작 
+### Html 공부 -> Css 공부 -> Java Script 공부 -> 프레임워크 공부 -> 공부내용을 되짚어보면서 웹페이지 제작 
+
+### 제일 익숙한 프로그램인 Visual Studio 에서 파생된 Visual Studio Code 사용
 
 
 
