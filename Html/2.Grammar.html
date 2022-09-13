@@ -91,6 +91,8 @@
 <h3>td(table data) -  테이블 내용</h3>
 <h3>tfoot - 항상 가장 아래행에 표시</h3>
 <h3>border - 테이블 격자(테이블태그 내에서 사용)</h3>
+<h3>rowspan - 열병합</h3>
+<h3>colspan - 행병합</h3>
 
 <table border="3">
   <thead>
@@ -113,20 +115,20 @@
     <tr>
       <td>철수</td>
       <td>남</td>
-      <td>부산</td>
+      <td rowspan="2">청주</td>
       <td>500</td>
     </tr>
 
     <tr>
       <td>영희</td>
       <td>여</td>
-      <td>인천</td>
+
       <td>500</td>
     </tr>
   </tb>
 
   <tfoot>
-    <td>합계</td> 
+    <td colspan="3">합계</td> 
     <td></td>
     <td></td>
     <td>2000</td>
