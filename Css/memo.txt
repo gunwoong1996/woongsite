@@ -1,3 +1,10 @@
 우선순위가 높은 명령어를 사용함 (id선택자>클래스 선택자>태그 선택자)
 
 block,inline 구분하기
+
+웹페이지
+
+
+div block element(화면 전체)-무색 무취
+
+span inline element(부피 만큼)-무색 무취

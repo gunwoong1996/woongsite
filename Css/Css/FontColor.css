@@ -28,31 +28,53 @@
 
 
     text-align: justify;
-}
-
-.h1{
-    border-width: 10px;
-    border-color: red;
-    border-style: solid;
 
     /* 자신의 부피만큼만 적용 */
     display: inline;
+}
+
+.h1{
+    border-bottom: 3px solid gray;
+
+    /* 화면 전체만큼 적용 */
+    display: block;
 
     /* 테두리사이의 간격 */
     padding:20px;
 
     /* 테두리와 테두리 사이의 거리 */
-    margin: 10px;
+    margin: 0px;
+    padding: 20px;
 
 }
 
-.h2{
-    border: 5px,solid,red;
+.olbox{
+    color: blue;
+
+    border-right: 3px solid gray;
+    
+    width: 150px;
+    
+    padding: 50px;
+
+    margin: 20px;
+
+    font-size: 30px;
+
+}
+
+.grid{
+    display: grid;
+
+    grid-template-columns: 300px 1fr;
+}
+.lifont{
+    font-size: 30px;
+
     
 
-    /* 화면 전체만큼 적용 */
-    display: block;
-
+    
 }
+
 
 
