@@ -1,0 +1,32 @@
+.c1{
+    /* 색깔 */
+
+    color:blue;
+
+    /* 글씨 크기 */
+
+    font-size:50px;   
+
+    /* 가운데 정렬  */
+    text-align: center;
+
+
+    
+   
+}
+
+.c2{
+    
+    color: blueviolet;
+
+    font-size: 100px;
+
+    text-decoration: underline;
+    
+    
+    /* 양쪽정렬:글자 사이에 공백이 있어야됨 */
+
+
+    text-align: justify;
+}
+
