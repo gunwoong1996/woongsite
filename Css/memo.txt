@@ -8,3 +8,5 @@ block,inline 구분하기
 div block element(화면 전체)-무색 무취
 
 span inline element(부피 만큼)-무색 무취
+
+미디어쿼리 min,max 미만 , 초과

@@ -48,6 +48,14 @@
 
 }
 
+
+
+
+
+
+
+/* ol박스 */
+
 .olbox{
     color: blue;
 
@@ -63,11 +71,18 @@
 
 }
 
+/* grid값 */
+
 .grid{
     display: grid;
 
     grid-template-columns: 300px 1fr;
+
+  
 }
+
+/* li 글씨크기  */
+
 .lifont{
     font-size: 30px;
 

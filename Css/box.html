@@ -15,7 +15,21 @@
     }
 </style> -->
 
-
+<!-- 화면크기에 따라서 웹의 상태가 바뀌는 미디어쿼리★ -->
+<style>
+     @media(max-width:800px) {
+       .grid{
+        display: block;
+       }
+       .olbox{
+        border-right: none;
+       }
+       .h1{
+        border-bottom: none;
+       }
+        
+    }
+</style>
 </head>
 
 <body>
@@ -26,7 +40,7 @@
   <h1 class="h1">CSS 연습</h1>
 
 
-<div class="grid">
+<div class="grid" >
     <ol class="olbox">
         <strong><li class="lifont">일번</li></strong>
         <strong><li class="lifont">이번</li></strong>
