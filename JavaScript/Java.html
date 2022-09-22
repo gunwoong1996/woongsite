@@ -24,23 +24,26 @@
   <script>
     var a = 'abc';
     var b = 'ABC';
-
+    var c = "  hello  ";
 
     // 자바 스크립트 출력문
 
     // 문자열 길이 함수
     document.write("변수 a의 문자열 길이는? ",a.length);
-    document.write('<br />'); 
+    document.write('<p />'); 
     // 대문자 변환
     document.write("대문자 변환 ",a.toUpperCase());
-    document.write('<br />');
+    document.write('<p />');
     // 소문자 변환
     document.write("소문자 변환 ",b.toLowerCase());
-    document.write('<br />');
+    document.write('<p />');
     //문자열 위치 찾기
     document.write("몇번째에 위치하는지? ",a.indexOf('c'));
+    document.write('<p />');
+    //공백 삭제
+    document.write("공백 삭제",c.trim());
     document.write('<br />');
-    //  
+    //    
     
     document.write("document-출력문");
   </script>
