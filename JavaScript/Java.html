@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Html위에서 존재하는언어 -->
   <title>JavaScript</title>
 
   <!-- css파일 연결 -->
@@ -18,9 +19,27 @@
 
 <body>
 
-  <h1 class="h1" >WEB</h1>
+  <h1 class="h1" >JavaScript</h1>
 
-  <input
+  <script>
+
+    // 자바 스크립트 출력문
+    document.write("document-출력문");
+  </script>
+
+  <!-- alert(경고창 생성),onclick,onchange(이벤트 발생)-->
+  <h3>alert(경고창 생성),onclick,onchange(이벤트 발생)</h3>
+
+  <!-- 버튼 생성 -->
+  <input type="button" value="hi" onclick="alert('hi')">
+  <br>
+
+
+  <!-- 텍스트 생성 -->
+  <input type="text" onchange="alert('change')">
+  <br>
+
+  <input type="text" onkeypress="alert('press')">
   
 
 </body>
