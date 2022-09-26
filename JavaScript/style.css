@@ -11,3 +11,15 @@
 
   padding: 30px;
 }
+
+.backgroundnight{
+  background-color:black;
+  color: white;
+
+}
+
+.backgroundday{
+  background-color:white;
+  color:black;
+
+}

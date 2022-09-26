@@ -17,14 +17,18 @@
   </style>
 </head>
 
-<body>
+<body >
 
+  
+  
   <h1 class="h1" >JavaScript</h1>
 
   <script>
     var a = 'abc';
     var b = 'ABC';
     var c = "  hello  ";
+    
+    
 
     // 자바 스크립트 출력문
 
@@ -45,6 +49,7 @@
     document.write('<br />');
     //    
     
+    document.q
     document.write("document-출력문");
   </script>
 
@@ -55,6 +60,16 @@
   <h2 class="h2" >버튼 생성</h1>
   <input type="button" style="width:50pt; height:50pt;" value="hi" onclick="alert('hi')">
   <br>
+  <!-- night버젼 -->
+  <input type="button" style="width:30pt; height:30pt;" value="night" 
+  onclick="document.querySelector('body').style.background='black';
+  document.querySelector('body').style.color='white'; ">
+  <!--day버젼  -->
+  <input type="button" style="width:30pt; height:30pt;" value="day" 
+  onclick="document.querySelector('body').style.background='white';
+  document.querySelector('body').style.color='black'; ">
+  
+  
 
 
   <!-- 텍스트 생성 -->
