@@ -45,8 +45,8 @@
     document.write("몇번째에 위치하는지? ",a.indexOf('c'));
     document.write('<p />');
     //공백 삭제
-    document.write("공백 삭제",c.trim());
-    document.write('<br />');
+    document.write("공백 삭제<br>",c.trim());
+   
     //    
     
     // boolean
@@ -72,9 +72,42 @@
   <input type="button" style="width:30pt; height:30pt;" value="day" 
   onclick="document.querySelector('body').style.background='white';
   document.querySelector('body').style.color='black'; ">
-  
-  
 
+  <!--  -->
+  <!-- night버젼 -->
+ 
+  <input id="nd" type="button" value="night" 
+  onclick="
+  if(document.querySelector('#nd').value === 'night')
+  {
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#nd').value='day';
+  }
+  else
+  {
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black'; 
+    document.querySelector('#nd').value='night';  
+  }
+  ">
+
+<input type="button" value="night" 
+onclick="
+if(document.querySelector.value === 'night')
+{
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  document.querySelector.value='day';
+}
+else
+{
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black'; 
+  document.querySelector.value='night';  
+}
+">
+  
 
   <!-- 텍스트 생성 -->
   <h2 class="h2" >텍스트 생성 이벤트들</h1>
@@ -83,6 +116,7 @@
 
   <input type="text" onkeypress="alert('press')">
   
+
 
 </body>
 
