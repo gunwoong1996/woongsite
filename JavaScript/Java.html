@@ -75,7 +75,7 @@
   document.querySelector('body').style.color='black'; ">
 
   <!--  -->
-  <!-- night버젼 -->
+  <!-- night&day버젼 -->
  
   <input type="button" value="night" 
   onclick="
@@ -93,14 +93,36 @@
   }
   ">
 
+<!-- 텍스트 생성 -->
+<h2 class="h2" >텍스트 생성 이벤트들</h1>
+<input type="text" onchange="alert('change')">
+<br>
+
+<input type="text" onkeypress="alert('press')">
+
+  <!-- 배열 -->
+  <h3 class="h2">Array</h3>
+  <script>
+    var array = ["gunwoong","harim"];
+    
+    // 나열
+    document.write(array[0]);
+    document.write("<br>",array[1]);
+
+    // 갯수
+    document.write("<br>",array.length);
+    
+    // 배열 추가
+
+    array.push('love');
+    document.write("<br>",array.length);
+
+    
+  </script>
 
 
-  <!-- 텍스트 생성 -->
-  <h2 class="h2" >텍스트 생성 이벤트들</h1>
-  <input type="text" onchange="alert('change')">
-  <br>
 
-  <input type="text" onkeypress="alert('press')">
+
   
 
 
