@@ -101,7 +101,7 @@
 <input type="text" onkeypress="alert('press')">
 
   <!-- 배열 -->
-  <h3 class="h2">Array</h3>
+  <h3 class="h2">배열</h3>
   <script>
     var array = ["gunwoong","harim"];
     
@@ -116,23 +116,26 @@
 
     array.push('love');
     document.write("<br>",array.length);
-
-    // 반복문
-    
-    var i = 0;
-    
-    while(i<3)
-    {
-      document.write('<ol>일번</ol>');
-      document.write('<ol>이번</ol>');
-      i+=1;
-
-    }
-
-    
+ 
   </script>
 
+<!-- 반복문 -->
+    
+<h3 class="h2">반복문</h3>
 
+<script>
+
+var j = 0;
+var people = ['woong','rim','su','jun'];
+
+while(j<people.length)
+{
+  document.write('<li>',people[j],'</li>');
+  j+=1;
+}
+
+
+</script>
 
 
   
