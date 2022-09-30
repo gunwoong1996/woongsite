@@ -76,7 +76,8 @@
 
   <!--  -->
   <!-- night&day버젼 -->
- 
+
+
   <input type="button" value="night" 
   onclick="
   if(this.value === 'night')
@@ -92,6 +93,8 @@
     this.value='night';  
   }
   ">
+  
+
 
 <!-- 텍스트 생성 -->
 <h2 class="h2" >텍스트 생성 이벤트들</h1>
@@ -133,9 +136,28 @@ while(j<people.length)
   document.write('<li>',people[j],'</li>');
   j+=1;
 }
+</script>
+
+<h3 class="h2">함수</h3>
+
+<script>
+
+var a = ['one','two','three'];
+var i = 0;
+
+function funarray(){
+while(i<3)
+{
+document.write(a[i],'<br>');
+i+=1;
+}  
+
+}
+funarray();
 
 
 </script>
+
 
 
   
