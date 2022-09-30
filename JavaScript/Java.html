@@ -169,8 +169,28 @@ function sum2(a,b){
 }
 document.write('<div class="h2">',sum2(2,3),'</div>');
 
+//night and day 함수버젼
+function Nightday(a){
+  var target = document.querySelector('body');
+  if(a.value === 'night')
+  {
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    a.value='day';
+  }
+  else
+  {
+    target.style.backgroundColor='white';
+    target.style.color='black'; 
+    a.value='night';  
+  }
+}
 </script>
 
+<input type="button" value="night" 
+  onclick="
+  Nightday(this);
+  ">
 
 
   
