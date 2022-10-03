@@ -210,12 +210,26 @@ function Nightday(a){
   document.write("강아지: ",family.dog,"<br>");
   document.write("집:",family["my home"],"<br><br>");
 
+
   //family 객체의 key값들 출력
   document.write("family 객체의 key값들 출력".bold().fontcolor("red"),"<br>");
 
   for(var key in family){
     document.write(key," : ",family[key],"<br>");
   }
+
+  document.write("<br>");
+
+  //this를 사용하면 객체의 이름이 바뀌어도 동작
+  family.showall = function() {
+    for(var key in this){
+    document.write(key," : ",this[key],"<br>");
+  }
+  }
+
+ 
+   family.showall();
+     
 </script>
 
 
