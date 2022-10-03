@@ -193,8 +193,24 @@ function Nightday(a){
   ">
 
 
+
 <h3 class="h2">객체</h3>
   
+<script>
+  var family = {
+    "boy":"gunwoong",
+    "girl":"harim"
+  };
+
+  document.write("남자: ",family.boy,"<br>");
+  document.write("여자: ",family.girl,"<br>");
+  // 객체에 추가
+  family.dog = "baduk";
+  family["my home"]="seoul";//띄어쓰기 필요하면 배열에 담아서 사용 
+  document.write("강아지: ",family.dog,"<br>");
+  document.write("집:",family["my home"],"<br>");
+
+</script>
 
 
 </body>
