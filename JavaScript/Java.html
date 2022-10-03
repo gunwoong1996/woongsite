@@ -208,8 +208,14 @@ function Nightday(a){
   family.dog = "baduk";
   family["my home"]="seoul";//띄어쓰기 필요하면 배열에 담아서 사용 
   document.write("강아지: ",family.dog,"<br>");
-  document.write("집:",family["my home"],"<br>");
+  document.write("집:",family["my home"],"<br><br>");
 
+  //family 객체의 key값들 출력
+  document.write("family 객체의 key값들 출력".bold().fontcolor("red"),"<br>");
+
+  for(var key in family){
+    document.write(key,"<br>");
+  }
 </script>
 
 
