@@ -69,16 +69,19 @@
   <div class="btn2">변환(hover) </div>
   <div class="btn2">변환(hover) </div>
   <div class="btn2">변환(hover) </div>
-  <div class="cooking">
+  <div class="animal">
     <img src="img/cat.jfif">
   </div>
 
 
   <script>
 
+
+    //버튼 클릭 
+    
     $(document).ready(function(){
 
-      $(".btn").click(function(){
+      $(".btn").click(function(){ 
           $(".popup_bg").css({"display" :"block" });
        
       });
@@ -86,9 +89,10 @@
       $(".popup_bg").click(function(){
           $(this).css({"display" :"none"});//초기상태로 돌아가기
       })
-
-
     });
+
+
+    //마우스 대고 땔때
 
     $(document).ready(function(){
 
@@ -105,11 +109,17 @@
             "transition" : "0.5s"
         })
       })
-
-    
-
     });
 
+
+    //사진 교체
+
+    $(document).ready(function(){
+      $(".animal > img").click(function(){
+        $(this).attr("src","img/dog.jpg");
+      });
+    
+    });
     
 
   </script>
@@ -117,6 +127,8 @@
   <div class = "popup_bg">
     <div class = "popup">
   </div>
+
+
 
   
 </body>
