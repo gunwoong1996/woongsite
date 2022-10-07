@@ -12,6 +12,17 @@
       
     }
 
+    
+   h1{
+    font-size: 48px;
+    font-weight: 100;
+   }
+
+   h4{
+    font-size: 20px;
+    font-weight: lighter;
+   }
+
     /* 배경사진 */
    .intro_bg{
     background-image: url("img/intro.png");
@@ -83,4 +94,19 @@
     color: white;
    }
 
+
+   /* 인트로 글씨 */
+   .intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;/*상 우 하 좌 순서 */
+    
+    text-align: center;
+   }
+
+
+   
+   .intro_text > h1,
+   .intro_text > h4{
+      color:#fff;
+   }
 
