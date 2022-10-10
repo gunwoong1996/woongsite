@@ -109,7 +109,8 @@
     top:-66px;
     display: flex;
     width: 1280px;
-    background: red  ;
+    background: white ;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);/*좌,우 / 크기 / 음영도 / 불투명도*/ 
     margin: auto;
    }
    
@@ -117,12 +118,11 @@
       
        flex: 1; /* 부모 요소에 flex를 준 뒤 자식요소에 flex값을 넣어줘야함 */
        height: 132px;
-       background: skyblue  ;
+      
       }  
 
    .amount > li > div {
     text-align: center;
-    background: green;
     height: 57px;
     margin-top: 37px;
     
@@ -130,7 +130,7 @@
    }
    /* 마지막 div만 오른쪽 선 제거 */
    .amount > li:not(:last-child) > div{
-    border-right: 1px solid gray ;
+    border-right: 1px solid brown ;
    }
 
    /* 인트로 글씨 */
