@@ -148,6 +148,8 @@
       color:#fff;
    }
 
+
+   /* ABOUT-메인텍스트 */
    .main_text0{
       width: 100%;
       height: 601px;
@@ -210,5 +212,34 @@
 
     }
 
+    .main_text1{
+      width: 100%;
+      height: 659px;
+      
+       
+   }
+
+
+   .main_text1 > h1{
+    padding-top: 50px;
+    text-align: center;
+    
+       
+   }
+
+   .main_text1 > .contents1{
+      
+    text-align: center; 
+    
+       
+   }
+
+   .service{
+    width: 1280px;
+    height: 427px;
+    display: flex;
+    margin: auto;
+    background: skyblue;
+   }
 
     
