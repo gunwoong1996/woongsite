@@ -234,12 +234,24 @@
        
    }
 
+   /* service 탭 */
+
    .service{
     width: 1280px;
     height: 427px;
     display: flex;
-    margin: auto;
-    background: skyblue;
+    margin:49px auto;
+    
    }
 
+   .service > .contents2{ 
+    padding: 20px;
+   }
+
+   .service > .contents2 > h2{
+
+    margin-bottom:27px;
+   }
+
+   
     
