@@ -22,15 +22,17 @@ h4{
 }
 
 
+/* 헤더 */
 
 header{
   position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  padding: 40px 0;
-  background: rgba(0,0, 0, .6);
+  color: black;
+ 
+  right: 0px;
+  padding: 0px 0;
+  /* background: rgba(0,0, 0, .6); */
   z-index: 100;
+  font-size: 25px;
 }
 
 header nav ul{
@@ -45,7 +47,8 @@ header nav ul li{
 
 }
 
-/* 헤더 */
+
+
 
 
   /* 푸터 */

@@ -1,10 +1,8 @@
 $(function(){
   $('#fullpage').fullpage({
     //options here
-    anchors:['firstPage','seconePage','thirdPage','fourthPage','lastPage'],
-    autoScrolling:true,
-    scrollHorizontally:true,
-    
+    anchors:['홈','자기소개','능력','경험','목표'],
+  
     navigation:true,
 
     navigationPosition:'right'
