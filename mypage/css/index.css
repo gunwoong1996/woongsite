@@ -101,9 +101,19 @@ header nav ul li{
   background-color: white;
   align-items: center;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 30px;
   box-shadow: 1px 1px 1px 0px;
   border-radius: 1.5%;
+}
+
+.introduce_text{
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px;
+
+  font-weight: bold;
+  color:rgb(63,72,204);
+  font-size: 40px;
 }
 
 
