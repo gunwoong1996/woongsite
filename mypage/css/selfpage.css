@@ -1,0 +1,102 @@
+*{
+  font-family:'KyoboHandwriting2020A' ,  sans-serif;
+ 
+
+  box-sizing: border-box;
+  
+}
+
+
+h1{
+  font-size: 100px;
+  margin-left: 50px;
+  margin-top: 0px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: default;
+}
+
+h4{
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+
+
+header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 40px 0;
+  background: rgba(0,0, 0, .6);
+  z-index: 100;
+}
+
+header nav ul{
+  display:flex;
+  justify-content:center;
+
+}
+
+header nav ul li{
+  margin: 0 20px;
+  list-style: none;
+
+}
+
+/* 헤더 */
+
+
+  /* 푸터 */
+
+  .footer{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    
+  }
+
+  .img_wrapper{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer img{
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    margin-right:10px;
+
+    /* 그림을 둥글게*/
+    border-radius: 50%;
+    ;
+  }
+
+ .footertext{
+    font-size: 16px;
+    padding: 100px;
+  }
+
+
+
+  /* 링크 언더바 삭제 */
+  a{ 
+    text-decoration:none !important 
+  } 
+
+  a:hover{ 
+    text-decoration:none !important
+    
+   }
+
+
+   /* h1~h4 */
+
+

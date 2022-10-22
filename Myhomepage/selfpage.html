@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Park Gunwoong </title>
 
-  <link rel="stylesheet" href="selfpage.css">  <!-- css 연동 -->
+  <link rel="stylesheet" href="css/selfpage.css">  <!-- css 연동 -->
 
 
   <style>
@@ -20,25 +20,91 @@
   
   </style>
 
+  <!-- 풀페이지(스크롤 페이지) 불러오기 -->
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+
+  <!-- jquery불러오기 -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="jquery.fullPage.js"></script>
+  <script src="main.js"></script>
+
 </head>
 
 <body> 
 
-<!-- <img class="main_image" src="img/main.jpg" > -->
+
+
+<!-- 네비게이션 -->
+
+
+
+<!-- <div class="head_text"><h1>내일을 향해 가는<br> 박건웅입니다.</h1></div> -->
+
+<header>
+  <nav>
+      
+          <ul>
+              <li data-menuanchor="홈"><a href="#section1" style="color: black;" ><h4>홈</h4></a></li>
+              <li data-menuanchor="자기소개"><a href="#section2" style="color: black;" ><h4>자기소개</h4></a></li>
+              <li data-menuanchor="능력"><a href="#section3" style="color: black;"><h4>능력</h4></a></li>
+              <li data-menuanchor="경험"><a href="#section4" style="color: black;"><h4>경험</h4></a></li>
+              <li data-menuanchor="목표"><a href="#section5" style="color: black;"><h4>목표</h4></a></li>
+          </ul>
+               
+  </nav>   
+</header>
+
+<main id ="fullPage">
+  <section class="section">
+   <h1 >내일을 향해 가는<p>박건웅입니다.</p></h1>
+  </section>
+
+  <section class="section">
+    <h4>자기소개</h4>
+   </section>
+
+   <section class="section">
+    <h4>능력</h4>
+   </section>
+
+   <section class="section">
+    <h4>경험</h4>
+   </section>
+
+   <footer class="section fp-auto-height">
+    <h4>목표</h4>
+   </footer>
+
+
+  </main>
+
+   
+
+
+<!-- <div class="footer">
+  <div class="footer img-wrapper"
+  <div class="img">
+    <a href="https://www.instagram.com/ggunwoonge/" target="_blank">
+      <img src="img/instagram.png" alt="instagram">
+     </a>    
+  </div>
+  <div class="img">
+      <a href="https://github.com/gunwoong1996" target="_blank">
+          <img src="img/github.png" alt="github">
+       </a>    
+  </div>
+
+  <div class="footertext">
+  Copyright 2022. 박건웅. All rights reserved.
+  </div>
+
+  </div>
+</div> -->
+
 
   
-<div class="head_text">
-  <h1>내일을 향해 가는<br> 박건웅입니다.</h1>
-</div>
-   
-<div class="middle_text">
-    <ul>
-      <div class="li"><h4>자기소개</h4></div>
-      <div class="li"><h4>능력</h4></div>
-      <div class="li"><h4>경험</h4></div>
-    </ul>
-</div>   
-   
+
 </body>
 
 </html>
