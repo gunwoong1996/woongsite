@@ -46,6 +46,19 @@
     
   }
 
+
+  /* 메인화면 애니메이션 */
+  .airplane{
+    padding: 0;
+    margin: 0;
+    width:700px; 
+    height:500px; 
+    position: fixed; 
+    right:800px; 
+    bottom:200px
+  }
+  
+
 /* 데스크탑 홈 글씨 */
   @media screen and (max-width:1920px){
     h1{
