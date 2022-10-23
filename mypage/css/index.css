@@ -198,6 +198,15 @@ header nav ul li{
     box-shadow: 1px 1px 1px 0px;
     border-radius: 1.5%;
   }
+
+  .line{
+    border-left:  thick solid #000;
+    margin-top: 18px;
+    height:100%;
+    left: 50%;
+
+ position: absolute;
+  }
   
   /* 얼굴 박스 */
   .my_face{
