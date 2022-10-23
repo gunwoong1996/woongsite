@@ -222,6 +222,19 @@ header nav ul li{
     left: 500px;
    
   }
+  /* 연혁 박스 */
+  .life{
+    width: 300px;
+   
+    height: 200px;
+    background-color:white;
+    margin:0;
+    margin-top: 50px;  
+    position: fixed;
+    left: 800px;
+    
+  }
+
   /* 소개글머리 */
   .head_text{
     margin-top: 10px;
@@ -239,12 +252,12 @@ header nav ul li{
     margin-top: 10px;
     margin-left:20px;
     padding: 0px;
-      width: 20%;
-      text-align: center;
+      
+      text-align: left;
       font-weight: bold;
       color:black;
-      background-color:skyblue;
-      font-size: 15px;
+      
+      font-size: 18px;
   }
   
   .introduce_text{
