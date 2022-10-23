@@ -120,8 +120,8 @@ header nav ul li{
 
 @media screen and (max-width:1920px){
 .box{
-  width: 1300px;
-  height: 600px;
+  width: 1100px;
+  height: 500px;
   background-color: white;
   align-items: center;
   margin: auto;
@@ -130,16 +130,85 @@ header nav ul li{
   border-radius: 1.5%;
 }
 
- /* 얼굴 박스 */
- .my_face{
+.line{
+  border-left:  thick solid #000;
+  margin-top: 18px;
+  height:100%;
+  left: 50%;
+
+position: absolute;
+}
+
+/* 얼굴 박스 */
+.my_face{
   width:200px;
   height: 200px;
   background-color:black;
   margin:0;
-  margin-top: 60px;
+  margin-top: 90px;
   position: fixed;
-  left: 300px;
+  left: 500px;
   border-radius: 10%;
+  
+}
+
+/* 소개 박스 */
+.introduce_box{
+  width:600px;
+  height: 300px;
+  background-color:white;
+  margin:0;
+  margin-top: 50px;  
+  position: fixed;
+  left: 750px;
+ 
+}
+/* 연혁 박스 */
+.life{
+  width: 300px;
+ 
+  height: 200px;
+  background-color:white;
+  margin:0;
+  margin-top: 50px;  
+  position: fixed;
+  left: 1130px;
+  
+}
+
+/* 소개글머리 */
+.head_text{
+  margin-top: 20px;
+  margin-left:20px;
+    padding: 0px;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    background-color:skyblue;
+    font-size: 27px;
+}
+/* 글머리 아래글 */
+.body_text{
+  margin-top: 10px;
+  margin-left:20px;
+  padding: 0px;
+    
+    text-align: left;
+    font-weight: bold;
+    color:black;
+    
+    font-size: 25px;
+}
+
+.introduce_text{
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px;
+
+  font-weight: bold;
+  color:rgb(63,72,204);
+  font-size: 40px;
 }
 
 .name{
@@ -149,39 +218,6 @@ header nav ul li{
   font-weight: bold;
   color:black;
   font-size:25px;
-}
-
-/* 소개 박스 */
-.introduce_box{
-  width:600px;
-  height: 300px;
-  background-color:black;
-  margin:0;
-  margin-top: 50px;  
-  position: fixed;
-  left: 500px;
- 
-}
-
-.int_text{
-  margin-top: 10px;
-    padding: 0px;
-    text-align: center;
-    font-weight: bold;
-    color:black;
-    font-size:25px;
-
-}
-
-/* 2페이지 메인텍스트 */
-.introduce_text{
-  text-align: center;
-  margin-top: 100px;
-  padding: 0px;
-
-  font-weight: bold;
-  color:rgb(63,72,204);
-  font-size: 40px;
 }
 
 }
