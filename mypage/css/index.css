@@ -25,8 +25,8 @@
    
     font-weight:bolder;
     position: fixed;
-    left: 20px;
-    top: 10px;
+    left: 30px;
+    top: 30px;
    
     /* 글자 애니메이션 추가 */
     background:  url("https://i.pinimg.com/originals/bc/1e/88/bc1e8884b0c4cb638753ba953e102334.jpg");
@@ -117,6 +117,9 @@ header nav ul{
   display:flex;
   justify-content:center;
   float: right;
+  position: fixed;
+  right: 20px;
+    top: 10px;
   
 
 }
@@ -133,6 +136,7 @@ header nav ul li{
 
 @media screen and (max-width:1920px){
 .box{
+  
   width: 1100px;
   height: 500px;
   background-color: white;
@@ -143,14 +147,7 @@ header nav ul li{
   border-radius: 1.5%;
 }
 
-.line{
-  border-left:  thick solid #000;
-  margin-top: 18px;
-  height:100%;
-  left: 50%;
 
-position: absolute;
-}
 
 /* 얼굴 박스 */
 .my_face{
