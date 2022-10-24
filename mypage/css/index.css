@@ -10,7 +10,7 @@
 
 
 
-@media screen and (max-width:1920px){
+@media screen {
   
   /* 왼쪽 상단 움직이는 글씨 */
   .move_text{
@@ -44,9 +44,13 @@
       background-position: 100% 50% 0%;
     }
     
+    
   }
+  
+  
+  
 
-
+  
   /* 메인화면 애니메이션 */
   .airplane{
     padding: 0;
@@ -55,8 +59,11 @@
     height:450px; 
     position: fixed; 
     right:150px; 
-    bottom:50px
+    bottom:50px ;
+    
   }
+
+
   
 
 /* 데스크탑 홈 글씨 */
