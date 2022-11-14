@@ -1,0 +1,9 @@
+- int (4byte) (-2^31 ~ (2^31 - 1))
+
+- double (8byte) (1.7 X 10^-308) ~ (1.7 X 10^308)
+
+- char (2byte) (0 ~ 2^16) 자바는 아스키코드가 아닌 유니코드를 사용
+
+- boolean (1byte) (true or false)
+
+-
