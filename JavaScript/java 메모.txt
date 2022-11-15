@@ -6,4 +6,4 @@
 
 - boolean (1byte) (true or false)
 
--
+- double result2 = (double) num1 / num2;
