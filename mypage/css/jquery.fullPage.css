@@ -133,7 +133,7 @@ html.fp-enabled,
 .fp-slidesNav ul li {
     display: block;
     width: 14px;
-    height: 13px;
+    height: 40px;
     margin: 7px;
     position:relative;
 }
@@ -149,38 +149,66 @@ html.fp-enabled,
     height: 100%;
     cursor: pointer;
     text-decoration: none;
+    
 }
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 12px;
-    width: 12px;
-    margin: -6px 0 0 -6px;
-    border-radius: 100%;
- }
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    height: 4px;
-    width: 4px;
-    border: 0;
-    background: rgb(63,72,204);
-    left: 50%;
-    top: 50%;
-    margin: -2px 0 0 -2px;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
+   border-radius: 0%;
+   width: 17px;
+   height: 17px;
+   margin: -8px 0 0 -8px;
+   background: transparent;
+   box-sizing: border-box;
+   border: 3px solid #24221F;
 }
+
+ #fp-nav ul li a span,
+ .fp-slidesNav ul li a span {
+    border: 3px solid #24221F;
+    border-radius: 0%;
+    width: 17px;
+   height: 17px;
+   margin: -8px 0 0 -8px;
+   box-sizing: border-box;
+   background: transparent;
+   position: absolute;
+   z-index: 1;
+   left: 50%;
+   top: 50%;
+   -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+     -o-transition: all 0.1s ease-in-out;
+     transition: all 0.1s ease-in-out; 
+
+     /* border-radius: 0%;
+     position: absolute;
+     z-index: 1;
+     height: 4px;
+     width: 4px;
+     border: 0;
+     background: rgb(63,72,204);
+     left: 50%;
+     top: 50%;
+     margin: -2px 0 0 -2px;
+     -webkit-transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+     -o-transition: all 0.1s ease-in-out;
+     transition: all 0.1s ease-in-out; */
+ }
+
+ 
+
+
+
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
-    width: 10px;
-    height: 10px;
-    margin: -5px 0px 0px -5px;
+    width: 17px;
+    height: 17px;
+    margin: -8px 0 0 -8px;
+    cursor : pointer;
+    image-rendering: url(cursor.cur);
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
